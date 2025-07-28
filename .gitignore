@@ -1,0 +1,39 @@
+# Environment files
+.env
+.env.local
+.env.example
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Logs
+*.log
+
+# Build artifacts
+*.app/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Configuration files with sensitive data
+config.plist 
