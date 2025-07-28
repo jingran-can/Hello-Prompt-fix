@@ -1,7 +1,12 @@
-# Swift Package Manager
-.build/
-.swiftpm/
-Package.resolved
+# Environment files
+.env
+.env.local
+.env.example
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
 # Xcode
 *.xcodeproj/
@@ -9,18 +14,13 @@ Package.resolved
 xcuserdata/
 *.xcuserstate
 
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
 
 # Logs
 *.log
-HelloPrompt_Logs/
-
-# Environment files
-.env
-.env.local
 
 # Build artifacts
 *.app/
@@ -35,11 +35,5 @@ dist/
 .vscode/
 .idea/
 
-# Test coverage
-*.coverage
-*.gcov
-
-# Backup files
-*~
-*.bak
-*.backup 
+# Configuration files with sensitive data
+config.plist 
