@@ -71,7 +71,7 @@ public final class TextInsertionService: ObservableObject {
         Task { @MainActor in
             // 等待更长时间，确保所有权限检查都完成
             try? await Task.sleep(nanoseconds: 2_000_000_000) // 2秒
-            contextDetector.startMonitoring()
+        contextDetector.startMonitoring()
         }
         
         // 加载支持的应用列表
