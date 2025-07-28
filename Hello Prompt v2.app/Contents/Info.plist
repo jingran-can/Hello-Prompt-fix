@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleExecutable</key>
+    <string>HelloPrompt</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.helloprompt.app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Hello Prompt v2</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <true/>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    
+    <!-- 权限说明 -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>HelloPrompt需要访问麦克风以录制语音并转换为文本提示</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>HelloPrompt需要辅助功能权限以实现全局快捷键功能</string>
+    <key>NSSystemAdministrationUsageDescription</key>
+    <string>HelloPrompt需要系统管理权限来注册全局快捷键和实现跨应用文本插入。</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>HelloPrompt需要输入监控权限来注册全局快捷键，以便您可以在任何应用中快速启动语音录制功能。</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>HelloPrompt需要辅助功能权限以实现全局快捷键功能</string>
+    
+    <!-- 网络访问 -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    
+    <!-- 硬化运行时设置 -->
+    <key>com.apple.security.cs.allow-jit</key>
+    <true/>
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <true/>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+    
+    <!-- 应用沙盒设置 -->
+    <key>com.apple.security.app-sandbox</key>
+    <false/>
+    
+    <!-- 支持的文档类型 -->
+    <key>CFBundleDocumentTypes</key>
+    <array/>
+    
+    <!-- 导出的类型标识符 -->
+    <key>UTExportedTypeDeclarations</key>
+    <array/>
+</dict>
+</plist>

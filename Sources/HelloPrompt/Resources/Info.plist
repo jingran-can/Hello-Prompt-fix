@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.helloprompt.app</string>
+    
+    <key>CFBundleName</key>
+    <string>HelloPrompt</string>
+    
+    <key>CFBundleDisplayName</key>
+    <string>Hello Prompt</string>
+    
+    <key>CFBundleShortVersionString</key>
+    <string>2.0.0</string>
+    
+    <key>CFBundleVersion</key>
+    <string>2</string>
+    
+    <key>CFBundleExecutable</key>
+    <string>HelloPromptV2</string>
+    
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>HelloPrompt需要访问麦克风以录制语音并转换为文本提示</string>
+    
+    <key>NSAppleEventsUsageDescription</key>
+    <string>HelloPrompt需要辅助功能权限以实现全局快捷键功能</string>
+    
+    <key>LSUIElement</key>
+    <true/>
+</dict>
+</plist> 
