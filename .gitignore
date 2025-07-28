@@ -1,0 +1,45 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+HelloPrompt_Logs/
+
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+*.app/
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+*.coverage
+*.gcov
+
+# Backup files
+*~
+*.bak
+*.backup 
